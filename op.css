@@ -1,0 +1,50 @@
+:focus {
+  outline-style: dashed;
+  outline-width: thick;
+}
+
+html {
+  font-family: ui-monospace, monospace;
+  font-size: calc(1em + 1vw + 1vh);
+  line-height: 2;
+}
+
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 1rem;
+  padding-inline: calc(1rem + 3vw);
+  overflow-wrap: break-word;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  margin-block-end: 1ex;
+}
+
+li {
+  display: block;
+  margin: 0;
+  margin-block-end: 1ex;
+  line-height: 1.1;
+}
+
+h1,
+i {
+  font-size: 2rem;
+  font-weight: 300;
+  font-style: inherit;
+  margin: 0;
+}
+
+mark {
+  display: table;
+}
+
+aside {
+  font-size: 1.5rem;
+  line-height: normal;
+  margin-block: 1rem;
+}

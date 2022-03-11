@@ -1,0 +1,50 @@
+@media (color) {
+  ::selection {
+    background: hotpink;
+    color: black;
+  }
+
+  html {
+    background: #509;
+    color: chartreuse;
+  }
+
+  [href] {
+    background: chartreuse;
+    color: #111;
+  }
+
+  :focus {
+    outline-color: chartreuse;
+  }
+
+  mark {
+    color: inherit;
+    background: #606;
+  }
+}
+
+@media (color) and (prefers-contrast: more) {
+  html {
+    background: #102;
+  }
+
+  [href] {
+    color: #102;
+  }
+}
+
+@media (color) and (prefers-contrast: less) {
+  html {
+    color: pink;
+  }
+
+  [href] {
+    background: pink;
+    color: #509;
+  }
+
+  :focus {
+    outline-color: pink;
+  }
+}
